@@ -7,7 +7,7 @@ A Power BI project that provides a comprehensive analysis of hospital operations
 ## 📊 Dashboard Preview
 
 ### Patient Dashboard
-![Patient Dashboard]("C:\Users\Shrikant\OneDrive\Pictures\Screenshots\Screenshot 2026-05-12 000632.png")
+![Patient Dashboard](https://raw.githubusercontent.com/Shrikantmangalam1/Hospital-Analysis-Dashboard/main/screenshots/Patient.png)
 
 ### Doctor Dashboard
 ![Doctor Dashboard](screenshots/doctor_dashboard.png)
