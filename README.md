@@ -83,10 +83,12 @@ Calender = CALENDAR(MIN(Medicine_patient[date]), MAX(Medicine_patient[date]))
 
 Added columns:
 ```DAX
+Calender = CALENDAR(DATE(2013, 1, 1), DATE(2025, 5, 31))
 Day = FORMAT(Calender[Date], "Ddd")
 Month = FORMAT(Calender[Date], "MMM")
 Month_index = MONTH(Calender[Date])
-Month_year = FORMAT(Calender[Date], "MMM YYYY")
+Month_year = FORMAT(Calender[Date], "MMM-YYYY")
+Only_date = FORMAT([date],"DD-MMM-YY")
 ```
 
 ### 4. Additional Tables
